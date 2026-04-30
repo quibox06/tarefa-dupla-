@@ -1,0 +1,173 @@
+body {
+
+    background-color: aqua;
+    background-image: url(/img/imganes.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+}
+
+h1 { 
+    text-align: center;
+    background-color: rgb(122, 243, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(122, 243, 132);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(122, 243, 132);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+}
+
+main {
+    border-radius: 40px;
+    background-color: white;
+
+}
+
+header {
+    background-color: rgb(122, 243, 132);
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+ul {
+    color: rgb(147, 245, 138);
+    margin-left: 150px;
+    margin: 0 auto;
+    /*centraliza os elemento na horizontal*/
+}
+
+li {
+    color: black;
+}
+
+footer {
+
+    border-radius: 100px;
+    background-color: rgb(125, 255, 113);
+    text-align: center;
+    color: rgb(9, 255, 0);
+
+}
+
+#inscricao {
+    border-radius: 50px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+footer a:hover {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(12, 12, 6);
+    border-radius: 30px;
+    font-weight: 900;
+
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    background-color: rgb(170, 253, 102);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: background-image: url('background.jpg');
+    ;
+
+
+}
+
+nav li:hover {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(12, 12, 6);
+    border-radius: 30px;
+    font-weight: 900;
+}
+
+nav ul li {
+    color: rgb(164, 255, 104);
+    margin-right: 150px;
+
+}
+
+a {
+    display: inline;
+    text-align: center;
+
+
+}
+
+section a {
+
+    background-color: rgb(141, 255, 88);
+    text-align: center;
+}
+
+section form {
+    margin-left: 575px;
+}
+
+section button {
+    margin-left: 10px;
+}
+
+section article {
+    text-align: center;
+}
+
+section img {
+    border-radius: 10px;
+    border-style: solid;
+}
+
+header nav ul {
+    margin-left: 100px;
+}
+
+div p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    cursor: pointer;
+    background-color: greenyellow;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    border-style: 40px;
+}
+
+button:hover {
+    background-color: green;
+    transform: scale(1.05);
+    border-radius: 40px;
+}
